@@ -29,7 +29,7 @@ body {
 img {
   display: block;
 }
-button{
+button {
   cursor: pointer;
 }
 
@@ -41,7 +41,7 @@ button{
   text-decoration: none;
   font-style: normal;
 }
-.conteiner{
+.conteiner {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -73,7 +73,17 @@ button{
   padding-top: 24px;
   padding-bottom: 25px;
 }
-
+.header-list {
+  display: flex;
+}
+.header-list .header-item + .header-item {
+  margin-left: 50px;
+}
+.header-list .header-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+}
 .header-link {
   font-weight: 500;
   line-height: 1.3;
@@ -83,7 +93,7 @@ button{
 .header-item .link.current {
   color: var(--accent-color);
 }
-.hrader-contact {
+.header-contact .itemlink {
   font-weight: 500;
   line-height: 1.4;
   letter-spacing: 0.02em;
@@ -97,14 +107,17 @@ button{
 }
 .header-link:hover {
   color: var(--accent-color);
- 
 }
-.header-link:focus{
+.header-link:focus {
   color: var(--accent-color);
   background-color: var(--backgraund-team);
 }
+.header-contact {
+  display: flex;
 }
-
+.header-contact .contact-item + .contact-item {
+  margin-left: 50px;
+}
 .hrader-contact:hover {
   color: var(--accent-color);
 }
@@ -127,8 +140,7 @@ button{
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text-color);
-  margin-bottom: var(--typical-margin)
-
+  margin-bottom: var(--typical-margin);
 }
 .hero-btn {
   background-color: var(--accent-color);
@@ -188,11 +200,11 @@ button{
 
   color: var(--title-text-color);
 }
-.team-top-title{
-margin-top: var(--typical-margin);
-margin-bottom: 10px;
+.team-top-title {
+  margin-top: var(--typical-margin);
+  margin-bottom: 10px;
 }
-.team-item{
+.team-item {
   width: 270px;
   height: 368px;
   border: 1px solid #ffffff;
@@ -221,7 +233,7 @@ margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.7;
   margin-top: 20px;
- letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
   color: var(--white-text-color);
   margin-top: 9px;
 }
@@ -268,7 +280,7 @@ margin-bottom: 10px;
   font-size: 18px;
   line-height: 2;
   margin-bottom: 4px;
- letter-spacing: 0.06em;
+  letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 .portfolio-text {
@@ -276,9 +288,9 @@ margin-bottom: 10px;
   line-height: 1.9;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
- color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
-.portfolio-picture-item{
+.portfolio-picture-item {
   width: 370px;
   height: 404px;
   border: 1px solid #ffffff;
