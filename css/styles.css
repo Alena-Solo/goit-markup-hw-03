@@ -237,6 +237,8 @@ margin-bottom: 10px;
 /* Портфоліо */
 .portfolio {
   background-color: var(--backgraund-main);
+  padding-top: var(--typical-padding);
+  padding-bottom: var(--typical-padding);
 }
 .button {
   font-family: "Roboto";
@@ -254,19 +256,29 @@ margin-bottom: 10px;
   background-color: var(--accent-color);
   color: var(--white-text-color);
 }
-
+.btn {
+  margin-bottom: 50px;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-
-  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+ letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-
-  color: var(--primary-text-color);
+  margin-bottom: 20px;
+ color: var(--primary-text-color);
+}
+.portfolio-picture-item{
+  width: 370px;
+  height: 404px;
+  border: 1px solid #ffffff;
+}
+.portfolio-picture {
+  margin-bottom: 20px;
 }
