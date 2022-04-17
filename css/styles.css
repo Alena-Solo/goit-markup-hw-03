@@ -16,6 +16,8 @@
   --backgraund-main: #e5e5e5;
   --backgraund-team: #f5f4fa;
   --white-text-color: #ffffff;
+  --typical-margin: 30px;
+  --typical-padding: 94px;
 }
 body {
   font-family: "Roboto", Ubuntu, sans-serif;
@@ -23,6 +25,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: var(--backgraund-team);
+}
+img {
+  display: block;
+}
+button{
+  cursor: pointer;
 }
 
 .list {
@@ -32,6 +40,12 @@ body {
 .link {
   text-decoration: none;
   font-style: normal;
+}
+.conteiner{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 .logo {
   font-family: "Raleway";
@@ -54,6 +68,10 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-link {
@@ -98,6 +116,8 @@ body {
   align-items: center;
   text-align: center;
   background-color: var(--background-hero-address);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -107,6 +127,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text-color);
+  margin-bottom: var(--typical-margin)
+
 }
 .hero-btn {
   background-color: var(--accent-color);
@@ -118,8 +140,11 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-
   color: var(--white-text-color);
+}
+.feature {
+  padding-top: var(--typical-padding);
+  padding-bottom: var(--typical-padding);
 }
 
 .feature-top-title {
@@ -128,14 +153,17 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 
 .feature-text {
   line-height: 1.7;
   color: var(--primary-text-color);
+  max-width: 270px;
 }
 .about {
   background-color: var(--backgraund-team);
+  padding-bottom: var(--typical-padding);
 }
 .about-title {
   font-weight: 700;
@@ -143,23 +171,36 @@ body {
   line-height: 1.67;
   text-align: center;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
+
 .team {
   background-color: var(--backgraund-team);
+  padding-top: var(--typical-padding);
+  padding-bottom: var(--typical-padding);
 }
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
 
   color: var(--title-text-color);
 }
-
+.team-top-title{
+margin-top: var(--typical-margin);
+margin-bottom: 10px;
+}
+.team-item{
+  width: 270px;
+  height: 368px;
+  border: 1px solid #ffffff;
+}
 .team.text {
   font-size: 16px;
   line-height: 1.19;
-
+  margin-bottom: var(--typical-margin);
   text-align: center;
 
   color: var(--primary-text-color);
