@@ -77,14 +77,18 @@ button {
   padding-top: 24px;
   padding-bottom: 25px;
   display: flex;
-  justify-content: center;
 }
 .header-list {
   display: flex;
-  justify-content: end;
 }
 .header-list .header-item + .header-item {
   margin-left: 50px;
+}
+.header-contact .header-contact-item + .header-contact-item {
+  margin-left: 50px;
+}
+.logo-header {
+  margin-right: 93px;
 }
 
 .header-list .header-link {
@@ -124,12 +128,12 @@ button {
 }
 .header-contact {
   display: flex;
-  justify-content: end;
+  margin-left: auto;
   
 }
-.header-contact .header-contact-item + .header-contact-item {
+/* .header-contact .header-contact-item + .header-contact-item {
   margin-left: 50px;
-}
+} */
 .header-contact-link {
   font-weight: 500;
   line-height: 1.4;
@@ -146,14 +150,11 @@ button {
   .main-nav {
     display: flex;
     align-items: center;
-    
-  
   }
 
   .header-navigation {
   display: flex;
   align-items: center;
-  justify-content: start;
 
 }
 /* Hero  */
