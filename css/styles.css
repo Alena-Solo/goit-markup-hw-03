@@ -76,6 +76,8 @@ button {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
 }
 .header-list {
   display: flex;
@@ -86,7 +88,7 @@ button {
 
 .header-list .header-link {
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 32px; 
   display: block;
 }
 .header-link {
@@ -111,8 +113,8 @@ button {
   background-color: var(--backgraund-team);
 }
 .header-contact .header-contact-link {
-  padding-top: 32px;
-  padding-bottom: 32px;
+   padding-top: 32px;
+  padding-bottom: 32px; 
   display: block;
 }
 .header-contact-link:hover {
@@ -137,7 +139,7 @@ button {
   background-color: var(--backgraund-team);
 }
 /* Main nav */
-.main-nav {vvvfv        fvffffffffffffffvffffffffffffffvfffffffffffffffffffffffffffffffffffffffvfffffffffffffffffffffffffffffffffvffffffffv
+ .main-nav {
   display: flex;
   align-items: center;
 }
