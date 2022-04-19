@@ -81,6 +81,7 @@ button {
 }
 .header-list {
   display: flex;
+  justify-content: end;
 }
 .header-list .header-item + .header-item {
   margin-left: 50px;
@@ -123,6 +124,8 @@ button {
 }
 .header-contact {
   display: flex;
+  justify-content: end;
+  
 }
 .header-contact .header-contact-item + .header-contact-item {
   margin-left: 50px;
@@ -132,6 +135,7 @@ button {
   line-height: 1.4;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+ 
 }
 
 .header-contact-link:focus {
@@ -139,9 +143,18 @@ button {
   background-color: var(--backgraund-team);
 }
 /* Main nav */
- .main-nav {
+  .main-nav {
+    display: flex;
+    align-items: center;
+    
+  
+  }
+
+  .header-navigation {
   display: flex;
   align-items: center;
+  justify-content: start;
+
 }
 /* Hero  */
 .hero {
