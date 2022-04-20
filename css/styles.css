@@ -19,6 +19,16 @@
   --typical-margin: 30px;
   --typical-padding: 94px;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto", Ubuntu, sans-serif;
   font-size: 14px;
@@ -35,6 +45,8 @@ button {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .link {
@@ -74,12 +86,18 @@ button {
 }
 /* Header */
 .header {
+  /* height: 80px; */
   padding-top: 24px;
   padding-bottom: 25px;
-  display: flex;
+  text-align: center;
+ border-bottom: 1px solid #ECECEC;
 }
 .header-list {
   display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
 }
 .header-list .header-item + .header-item {
   margin-left: 50px;
@@ -89,6 +107,8 @@ button {
 }
 .logo-header {
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-list .header-link {
@@ -183,7 +203,7 @@ margin: auto;
   min-width: 200px;
   height: 50px;
   background-color: var(--accent-color);
-  font-family: inherit;
+  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
