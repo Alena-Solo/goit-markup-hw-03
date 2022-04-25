@@ -220,10 +220,6 @@ margin: auto;
   border: none;
 }
 /* Feature/ */
-/* /* .feature {
-  padding-top: var(--typical-padding);
-  padding-bottom: var(--typical-padding); */
-} */
 
 .feature-top-title {
   font-weight: 700;
@@ -273,8 +269,7 @@ margin: auto;
 /* Team/ */
 .team {
   background-color: var(--backgraund-team);
-  /* padding-top: var(--typical-padding);
-  padding-bottom: var(--typical-padding); */
+ 
 }
 .team-list {
   display: flex;
@@ -331,9 +326,6 @@ margin: auto;
 .footer-address:not(:last-child) {
   margin-bottom: 9px;
 }
-/* /* .footer-logo {
-  margin-bottom: 20px; */} */
-
 .address-link{
   /* margin-bottom: 9px; */
   margin-top: 20px;
@@ -374,9 +366,7 @@ margin: auto;
 .contact-link:not(:last-child) {
   margin-bottom: 9px;
 } 
-/* /* .address-link + .address-link {
-  margin-bottom: 9px; */
-} */
+
 
 /* Портфоліо */
 
@@ -418,7 +408,6 @@ margin: auto;
   display: flex;
   justify-content: center;
  padding-bottom: 50px;
-  /* padding-top: 94px; */
   background-color: #ffffff;
 } 
 
@@ -479,6 +468,3 @@ margin-left: 0;
 .portfolio-picture-item::not(:nth-child(3n)){
   margin-left: 30px;
 }
-/* .box {
-  margin-bottom: 94px;
-} */
