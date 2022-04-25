@@ -73,6 +73,10 @@ button {
 .studio {
   color: var(--title-text-color);
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -216,10 +220,10 @@ margin: auto;
   border: none;
 }
 /* Feature/ */
-.feature {
+/* /* .feature {
   padding-top: var(--typical-padding);
-  padding-bottom: var(--typical-padding);
-}
+  padding-bottom: var(--typical-padding); */
+} */
 
 .feature-top-title {
   font-weight: 700;
@@ -269,8 +273,8 @@ margin: auto;
 /* Team/ */
 .team {
   background-color: var(--backgraund-team);
-  padding-top: var(--typical-padding);
-  padding-bottom: var(--typical-padding);
+  /* padding-top: var(--typical-padding);
+  padding-bottom: var(--typical-padding); */
 }
 .team-list {
   display: flex;
@@ -375,12 +379,6 @@ margin: auto;
 } */
 
 /* Портфоліо */
-q
-.section {
-  background-color: var(--backgraund-team);
-  padding-top: var(--typical-padding);
-  padding-bottom: var(--typical-padding);
-}
 
 .button {
   font-family: "Roboto";
@@ -420,7 +418,7 @@ q
   display: flex;
   justify-content: center;
  padding-bottom: 50px;
-  padding-top: 94px;
+  /* padding-top: 94px; */
   background-color: #ffffff;
 } 
 
@@ -481,6 +479,6 @@ margin-left: 0;
 .portfolio-picture-item::not(:nth-child(3n)){
   margin-left: 30px;
 }
-.box {
+/* .box {
   margin-bottom: 94px;
-}
+} */
