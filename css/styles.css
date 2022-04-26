@@ -411,6 +411,10 @@ margin: auto;
 .portfollio-list .portfolio-item {
   margin-left: 8px;
 }
+.portfolio-item:first-child {
+  margin-left: 0;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
