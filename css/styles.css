@@ -452,6 +452,7 @@ margin-left: 0;
   margin-right: 0;
 } 
 .portfolio-conect {
+ font-family: Roboto, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
@@ -467,7 +468,7 @@ margin-left: 0;
 .portfolio-picture-item::not(:nth-child(3n)){
   margin-right: 30px;
 }
-.portfolio-picture-item:nth-last-child(7, 8, 9){
+.portfolio-picture-item:nth-last-child(-n +3){
   margin-bottom: 0;
 }
 .portfolio-picture-item::not(:nth-child(3n)){
