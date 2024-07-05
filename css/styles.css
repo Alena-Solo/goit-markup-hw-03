@@ -80,6 +80,7 @@ img {
 /* HEADER */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
 .header-container {
@@ -100,7 +101,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 24px 0;
   margin-right: 76px;
 }
 
@@ -186,7 +186,7 @@ img {
 
 .hero-btn {
   display: block;
-  width: 169px;
+  min-width: 169px
   white-space: nowrap;
   border-radius: 4px;
   font-family: inherit;
@@ -222,7 +222,7 @@ img {
   gap: 24px;
 }
 .features-item {
-  width: calc((100% - 72) / 4);
+  flex-basis: calc((100% - 72px) / 4)) ;
 }
 
 .features-subtitle {
@@ -239,6 +239,7 @@ img {
 }
 
 .team-container {
+ 
 }
 
 .team {
@@ -256,6 +257,8 @@ img {
 }
 .team-item {
   background-color: #fff;
+  border-radius: 0 0 4px 4px;
+
 }
 
 .team-images {
@@ -264,16 +267,20 @@ img {
 .team-subtitle {
   text-align: center;
   white-space: nowrap;
+  margin-bottom: 8px;
 }
 .team-card {
+  max-width: 162px;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
   text-align: center;
-  margin: 32px 16px;
-  padding-left: auto;
-  padding-right: auto;
+  padding: 32px 0;
+  
 }
 
 .team-text {
-  margin-top: 8px;
+  
 }
 
 /* PORTFOLIO */
@@ -282,6 +289,10 @@ img {
   background-color: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.portfolio-container {
+  align-items: center;
 }
 
 .portfolio-title {
@@ -300,33 +311,40 @@ img {
 }
 
 .portfolio-item {
+  display: block;
+  align-items: center;
 }
 
 .portfolio-images {
 }
 
+.portfolio-box  {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e7e9fc;
+  border-top: none; 
+  padding: 32px 16px;
+
+}
+
 .portfolio-subtitle {
-  margin-top: 32px;
-  margin-left: 16px;
   margin-bottom: 8px;
 }
 
 .portfolio-text {
-  margin-left: 16px;
-  margin-bottom: 32px;
+  
 }
 
 /* FOOTER */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-container {
   display: inline-block;
   align-items: center;
-  padding-top: 100px;
   padding-left: 156px;
-  padding-bottom: 100px;
   padding-right: auto;
 }
 
